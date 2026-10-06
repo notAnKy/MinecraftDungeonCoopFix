@@ -1,12 +1,14 @@
-# DungeonCoopFix
+# MinecraftDungeonCoopFix
 
 A lightweight Windows helper for Minecraft Dungeons local co-op that lets Player 1 use keyboard/mouse while Player 2 uses one real controller.
+
+The tool itself is still called **DungeonCoopFix**; open **DungeonCoopFix.exe** to use it.
 
 **Confirmed in real gameplay:** keyboard/mouse for P1 + a PS4/DualShock 4 for P2, using Steam Input and the controller order below.
 
 ## Why this exists
 
-Minecraft Dungeons on PC normally expects two controllers before allowing local multiplayer. Keyboard/mouse and the first controller can both act as Player 1.
+Minecraft Dungeons on PC can require two detected controllers before local multiplayer becomes available, while keyboard/mouse and the first controller may both behave as Player 1.
 
 DungeonCoopFix adds one neutral virtual Xbox 360 controller so your real controller can be assigned to Player 2. You do not need a second physical controller.
 
@@ -22,7 +24,8 @@ DungeonCoopFix adds one neutral virtual Xbox 360 controller so your real control
 
 - Windows 10 or Windows 11, **64-bit (x64)**.
 - Minecraft Dungeons on Steam.
-- One physical controller. PS4/DualShock 4 is the confirmed test.
+- One physical controller. **DualShock 4 / PS4 is the only real-world tested setup so far.**
+- DualSense / PS5, Xbox One and Xbox Series X|S controllers are expected to be compatible, but remain unverified.
 - Steam Input enabled for the game, with Steam Overlay available.
 - ViGEmBus **1.22.0**, installed once through the app.
 
@@ -155,7 +158,8 @@ Attach the two generated ZIPs to GitHub Releases. Keep **dist/**, **bin/**, **ob
 
 - Windows x64 only; designed/tested primarily with Minecraft Dungeons on Steam.
 - Controller order depends on Steam Input.
-- PS4/DualShock 4 is the confirmed real-world controller; other controllers may work.
+- DualShock 4 / PS4 is confirmed in real gameplay.
+- DualSense / PS5, Xbox One and Xbox Series X|S controllers are expected to be compatible, but remain unverified.
 - Steam may show translated/duplicate Xbox names.
 - ViGEmBus is retired and receives no updates.
 - Experimental setup/L3 controls are not part of the supported normal workflow.
